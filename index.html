@@ -4,8 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Netflix Sign In Page</title>
+  <link rel="stylesheet" href="netflix-sign-in.css">
 </head>
 <body>
-  
+  <div class="netflix-sign-in-container">
+    <div class="sign-in">
+      <div class="sign-in-2">
+        <h1 class="sign-in-title">Sign In</h1>
+      <form class="form">
+        <!--Email or Phone Number-->
+        <div class="sign-in-input">
+          
+            <input type="text" name="email-or-phone-number" id="email-or-phone-number" placeholder="Email or phone number">
+            <!-- <span class="message">Please enter a valid email or phone number.</span> -->
+        </div> 
+      <!--Password-->
+        <div class="sign-in-input">
+         
+            <input type="text" name="password" id="password" placeholder="Password">
+            <!-- <span class="message">Your password must contain between 4 to 60 characters.</span> -->
+         
+       </div>
+       <!--Sign In Button-->
+        <button type="submit" class="sign-in-button">Sign In</button>
+       
+       <p class="or-paragraph">OR</p>
+       <!--Use a Sign-In Code Button -->
+       <div>
+        <button type="submit" class="sign-in-code-button">Use a Sign-in Code</button>
+       </div>
+       <a href="">
+        <p>Forgot Password?</p>
+      </a>
+    </form>
+    <!--extra items-->
+      <div class="extra-items">
+        <!--Remember me checkbox-->
+      <div class="remember-me-need-help">
+        <input type="checkbox" name="remember-me">Remember me 
+      </div>
+      <!--New to Netflix?-->
+      <div class="new-to-netflix">
+        <p class="new-to-netflix">New to Netflix? <a href="">Sign up now.</a></p>
+      </div>
+      <!--Page Protected-->
+      <div class="page-protected">
+        <p class="page-protected">This page is protected by Goggle reCAPTCHA to ensure you're not a bot. <a href="">Learn more.</a></p>
+      </div>
+    </div>
+   </div>
+  </div>
+ </div>
 </body>
 </html>
