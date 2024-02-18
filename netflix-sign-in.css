@@ -26,3 +26,24 @@ body {
 
   padding: 5rem;
 }
+
+.sign-in-title {  
+  padding-left: 2.5rem;
+
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sign-in {
+  padding: 50px 40px;
+
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+
+  font-weight: bolder;
+
+  width: 30vw;
+  height: 80vh;
+
+  border-radius: 10px;
+}
