@@ -110,3 +110,29 @@ body {
   opacity: .7;
   transition: .4s;
 }
+
+.sign-in-code-button {
+  width: 20rem;
+
+  padding: 10px;
+
+  background-color: rgba(128,128,128,0.3);
+  color: white;
+
+  outline: none;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 15px;
+
+  cursor: pointer;
+
+  margin-top: -30px;
+  margin-bottom: -65px;
+}
+
+.sign-in-code-button:hover {
+  opacity: .7;
+  transition: .4s;
+}
