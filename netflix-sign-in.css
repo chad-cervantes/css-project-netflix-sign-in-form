@@ -28,8 +28,7 @@ body {
 }
 
 .sign-in-title {  
-  padding-left: 2.5rem;
-
+  padding-left: -3.5rem;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -42,8 +41,8 @@ body {
 
   font-weight: bolder;
 
-  width: 30vw;
-  height: 80vh;
+  width: 100vw;
+  height: 90vh;
 
   border-radius: 10px;
 }
@@ -142,7 +141,7 @@ body {
   flex-direction: column;
   align-items: left;
 
-  padding-left: 2rem;
+  padding-left: -3.5rem;
 
   color: white;
 
@@ -155,4 +154,28 @@ body {
   width: 20rem;
 
   margin-top: 1px;
+}
+
+@media (width > 50rem) {
+  .netflix-sign-in-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .sign-in {
+    width: 30vw;
+    height: 80vh;
+  }
+
+  .sign-in-title {
+    padding-left: 2.5rem;
+  }
+
+  .extra-items {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    padding-left: 2rem;
+  }
 }
