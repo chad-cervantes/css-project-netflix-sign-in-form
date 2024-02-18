@@ -136,3 +136,23 @@ body {
   opacity: .7;
   transition: .4s;
 }
+
+.extra-items {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  padding-left: 2rem;
+
+  color: white;
+
+  height: 5rem;
+
+  font-size: 13px;
+}
+
+.page-protected {
+  width: 20rem;
+
+  margin-top: 1px;
+}
